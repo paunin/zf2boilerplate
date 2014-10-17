@@ -1,0 +1,14 @@
+{
+    "name": "bm/online/template",
+    "description": "BM online template",
+    "license": "",
+    "keywords": [
+        "bm",
+        "bm online template"
+    ],
+    "homepage": "http://molodost.bz/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+    }
+}
