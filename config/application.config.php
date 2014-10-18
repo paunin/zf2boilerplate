@@ -20,6 +20,8 @@ return array(
         'ZF\\Rpc',
         'ZF\\Versioning',
         'ZF\\DevelopmentMode',
+        'ZF\Apigility\Documentation',
+        'ZF\\Apigility\\Documentation\\Swagger',
         'Server'
     ),
     'module_listener_options' => array(
