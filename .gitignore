@@ -13,3 +13,4 @@ vendor
 config/development.config.php
 config/autoload/local.php
 config/autoload/*.local.php
+composer.phar
