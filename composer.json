@@ -14,6 +14,8 @@
     },
     "require-dev": {
         "zfcampus/zf-apigility-admin": "~1.0",
-        "zfcampus/zf-development-mode": "~2.0"
+        "zfcampus/zf-development-mode": "~2.0",
+        "zendframework/zend-developer-tools": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master"
     }
 }
