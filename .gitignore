@@ -10,3 +10,6 @@ composer.lock
 vendor/bin
 local
 vendor
+config/development.config.php
+config/autoload/local.php
+config/autoload/*.local.php

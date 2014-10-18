@@ -9,6 +9,11 @@
     "homepage": "http://molodost.bz/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+        "zfcampus/zf-apigility": "~1.0"
+    },
+    "require-dev": {
+        "zfcampus/zf-apigility-admin": "~1.0",
+        "zfcampus/zf-development-mode": "~2.0"
     }
 }
