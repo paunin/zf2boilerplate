@@ -13,3 +13,12 @@ ZF2 Boilerplate App
     #./install.sh
 
 @see `install.sh` to understand installation process
+
+## Useful urls
+
+### API
+
+* `apigility/ui` (only in dev mode)
+* `apigility/documentation`
+* `apigility/swagger`
+    
