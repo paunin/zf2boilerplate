@@ -24,6 +24,7 @@ return array(
         'ZF\\Apigility\\Documentation\\Swagger',
         'DoctrineModule',
         'DoctrineORMModule',
+        'ZendDbMigrations',
         'Server'
     ),
     'module_listener_options' => array(
