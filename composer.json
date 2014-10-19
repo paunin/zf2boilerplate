@@ -12,7 +12,8 @@
         "zendframework/zendframework": "2.3.*",
         "zfcampus/zf-apigility": "~1.0",
         "zfcampus/zf-apigility-documentation": "~1.0-dev",
-        "zfcampus/zf-apigility-documentation-swagger": "~1.0-dev"
+        "zfcampus/zf-apigility-documentation-swagger": "~1.0-dev",
+        "doctrine/doctrine-orm-module": "~0.8"
     },
     "require-dev": {
         "zfcampus/zf-apigility-admin": "~1.0",

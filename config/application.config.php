@@ -22,6 +22,8 @@ return array(
         'ZF\\DevelopmentMode',
         'ZF\Apigility\Documentation',
         'ZF\\Apigility\\Documentation\\Swagger',
+        'DoctrineModule',
+        'DoctrineORMModule',
         'Server'
     ),
     'module_listener_options' => array(
