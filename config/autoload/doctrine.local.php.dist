@@ -1,7 +1,7 @@
 <?php
 return array(
     'doctrine' => array(
-        'driver' => array(
+        /*'driver' => array(
             // defines an annotation driver with two paths, and names it `my_annotation_driver`
             'annotation_driver' => array(
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
@@ -20,7 +20,7 @@ return array(
                     'My\Namespace' => 'annotation_driver'
                 )
             )
-        ),
+        ),*/
         'connection' => array(
             // default connection name
             'orm_default' => array(
