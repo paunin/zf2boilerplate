@@ -1,5 +1,10 @@
 <?php
 return array(
+    'zf-oauth2' => array(
+        // ...
+        'allow_implicit' => true,
+        // ...
+    ),
     'db' => array(
         'adapters' => array(
             'Zend\\Db\\Adapter\\Adapter' => array(
