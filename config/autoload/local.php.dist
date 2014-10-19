@@ -2,13 +2,12 @@
 return array(
     'db' => array(
         'adapters' => array(
-            'main' => array(
-                'driver' => 'Pdo_Mysql',
+            'Zend\Db\Adapter\Adapter' => array(
+                'dsn'            => 'mysql:dbname=zf2template;host=127.0.0.1',
                 'database' => 'zf2template',
                 'username' => 'root',
                 'password' => 'root',
-                'hostname' => 'localhost',
             ),
-        ),
+        )
     ),
 );

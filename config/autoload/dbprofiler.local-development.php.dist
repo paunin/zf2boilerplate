@@ -12,7 +12,7 @@ $dbParams = array(
 return array(
     'service_manager' => array(
         'factories' => array(
-            'Zend\Db\Adapter\Adapter' => function ($sm) use ($dbParams) {
+            'Zend\Db\Adapter\Adapter\Profiler' => function ($sm) use ($dbParams) {
                 $adapter = new BjyProfiler\Db\Adapter\ProfilingAdapter(array(
                     'driver'    => 'pdo',
                     'dsn'       => 'mysql:dbname='.$dbParams['database'].';host='.$dbParams['hostname'],

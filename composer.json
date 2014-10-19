@@ -1,12 +1,18 @@
 {
-    "name": "bm/online/template",
-    "description": "BM online template",
+    "name": "ZF2/template",
+    "description": "ZF2 online template",
     "license": "",
     "keywords": [
-        "bm",
-        "bm online template"
+        "ZF2",
+        "ZF2 template"
     ],
-    "homepage": "http://molodost.bz/",
+    "homepage": "http://paunin.com/",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/paunin/ZendDbMigrations"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
@@ -14,7 +20,7 @@
         "zfcampus/zf-apigility-documentation": "~1.0-dev",
         "zfcampus/zf-apigility-documentation-swagger": "~1.0-dev",
         "doctrine/doctrine-orm-module": "~0.8",
-        "knyzev/zend-db-migrations": "dev-master",
+        "paunin/zend-db-migrations": "dev-master",
         "imagine/imagine": "dev-master"
     },
     "require-dev": {

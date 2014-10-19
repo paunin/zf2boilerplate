@@ -30,5 +30,5 @@ do
         echo "        > Saved in $newfile."
     fi
 done
-
+./zf.sh db_migrations_migrate
 echo ' > Zf2Boilerplate up-to-date!'
