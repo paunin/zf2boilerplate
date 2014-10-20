@@ -25,7 +25,10 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'ZendDbMigrations',
-        'Server'
+        'Server',
+        'ZfcBase',
+        'ZfcUser',
+        'BjyAuthorize',
     ),
     'module_listener_options' => array(
         'module_paths' => array(

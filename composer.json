@@ -21,7 +21,9 @@
         "zfcampus/zf-apigility-documentation-swagger": "~1.0-dev",
         "doctrine/doctrine-orm-module": "~0.8",
         "paunin/zend-db-migrations": "dev-master",
-        "imagine/imagine": "dev-master"
+        "imagine/imagine": "dev-master",
+        "bjyoungblood/bjy-authorize": "1.4.*",
+        "zf-commons/zfc-user": "0.1.*"
 
     },
     "require-dev": {
