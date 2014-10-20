@@ -58,4 +58,19 @@ return array(
             'route_name' => 'server.rpc.info',
         ),
     ),
+    'zf-mvc-auth' => array(
+        'authorization' => array(
+            'Server\\V1\\Rpc\\Info\\Controller' => array(
+                'actions' => array(
+                    'info' => array(
+                        'GET' => true,
+                        'POST' => false,
+                        'PATCH' => false,
+                        'PUT' => false,
+                        'DELETE' => false,
+                    ),
+                ),
+            ),
+        ),
+    ),
 );
