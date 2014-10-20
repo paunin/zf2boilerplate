@@ -1,9 +1,12 @@
 #!/bin/bash
+echo "----------- git pull -----------"
 git pull
 git submodule update --init --recursive
 chmod -R 777 data/cache
+echo "----------- composer -----------"
 composer update
 
+echo "-----------  config  -----------"
 firstfile=true
 for filename in `find ./config/ ./module/ -name *local.php.dist -o -name *local-development.php.dist -o -name development.config.php.dist `
 do
@@ -30,5 +33,6 @@ do
         echo "        > Saved in $newfile."
     fi
 done
+echo "-----------  migrate -----------"
 ./zf.sh db_migrations_migrate
 echo ' > Zf2Boilerplate up-to-date!'

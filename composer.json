@@ -22,11 +22,13 @@
         "doctrine/doctrine-orm-module": "~0.8",
         "paunin/zend-db-migrations": "dev-master",
         "imagine/imagine": "dev-master"
+
     },
     "require-dev": {
         "zfcampus/zf-apigility-admin": "~1.0",
         "zfcampus/zf-development-mode": "~2.0",
         "zendframework/zend-developer-tools": "dev-master",
-        "bjyoungblood/bjy-profiler": "dev-master"
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "phpunit/phpunit": "4.*"
     }
 }
